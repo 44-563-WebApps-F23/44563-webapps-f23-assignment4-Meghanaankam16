@@ -10,7 +10,7 @@
     background: #e58163;
 }
 .name{
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family:Georgia, 'Times New Roman', Times, serif;
     font-size: 17px;
     color: black;
     background: #c8ebf4;
@@ -22,19 +22,12 @@
 .linde {
     color:rgb(239, 14, 156);
 }
-.linde:hover{
-    cursor: pointer; 
-    text-shadow: 2px 2px 4px #bef566; 
-    border: 1px dashed #f89807; 
-}
+
 .krogstad {
     color:blue;
 }
-.krogstad:hover{
-    cursor: pointer; 
-    text-shadow: 2px 2px 4px #ea7171; 
-    border: 1px dashed #FF5733; 
-}
+
+
 .table {
     border-collapse: collapse;
     width: 50%;
@@ -51,8 +44,12 @@
     text-align: center;
     padding: 10px;
 }
+
+.table thead {
+    background-color: rgb(13, 184, 247);
+}
 .table tr:nth-child(even) {
-    background-color: bisque;
+    background-color: rgb(13, 184, 247);
 }
 
 .table td:hover {
@@ -79,4 +76,17 @@ footer {
 /* Style icons within links */
 .bottom-navbar i{
     margin-right: 5px;
+}
+
+
+.linde:hover{
+    cursor: pointer; 
+    text-shadow: 2px 2px 4px #bef566; 
+    border: 1px dashed #f89807; 
+}
+
+.krogstad:hover{
+    cursor: pointer; 
+    text-shadow: 2px 2px 4px #ea7171; 
+    border: 1px dashed #FF5733; 
 }
